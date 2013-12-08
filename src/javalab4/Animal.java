@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication2;
+package javalab4;
 
 /**
  *https://codenvy.com/ide/tmp-j91h9hkz7jayvr
@@ -18,6 +18,7 @@ public class Animal implements AnimalInterface {
     }
     
    
+    @Override
     public String introduceYourself (){
         
         return ("I suck milk: " + suckMilk);
