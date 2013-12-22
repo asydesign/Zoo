@@ -15,12 +15,12 @@ public class Zoo {
     public Zoo(AnimalInterface animal){
         this.animal = animal;
     }
-    public void setAnimal(AnimalInterface animal){
-        this.animal = animal;
-    }
-    public AnimalInterface getAnimal(){
-        return animal;
-    }
+//    public void setAnimal(AnimalInterface animal){
+//        this.animal = animal;
+//    }
+//    public AnimalInterface getAnimal(){
+//        return animal;
+//    }
     public void showAnimal(){
         System.out.println(animal.introduceYourself());
     }
